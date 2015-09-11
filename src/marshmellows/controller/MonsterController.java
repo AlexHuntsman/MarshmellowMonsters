@@ -14,7 +14,7 @@ public class MonsterController
 			double hair = 8;
 			int noses = 1;
 			boolean hasBellyButton = true;
-			String name = "MR Manshter";
+			String name = "MR Spidder";
 			int Stinger = 1;
 			
 			myOutput = new MarshmallowOutput();
