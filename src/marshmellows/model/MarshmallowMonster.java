@@ -24,5 +24,11 @@ public class MarshmallowMonster
 			this.monsterStinger = monsterStinger;
 			
 		}
+		public String toString()
+		{
+			String monster = "This Monster has " + monsterEyes + " eyes, and its' name is " + monsterName;
+			
+			return monster;
+		}
 
 	}
