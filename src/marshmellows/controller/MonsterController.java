@@ -26,4 +26,3 @@ public class MonsterController
 			myOutput.displayMonsterInfo(alexMonster.toString());
 		}
 	}
-  
