@@ -12,13 +12,13 @@ public class MonsterController
 
 		public MonsterController()
 		{
-			int eyes = 3;
-			double legs = 8;
-			double hair = 8;
-			int noses = 1;
+			int eyes = 1;
+			double legs = 20;
+			double hair = 2.5;
+			int noses = 0;
 			boolean hasBellyButton = true;
-			String name = "MR Spidder";
-			int Stinger = 1;
+			String name = "Lord Destructor";
+			int Stinger = 2;
 			
 			monsterScanner = new Scanner(System.in);
 			myOutput = new MarshmallowOutput();
