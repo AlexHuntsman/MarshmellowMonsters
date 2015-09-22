@@ -28,9 +28,13 @@ public class MonsterController
 		
 		public void start()
 		{
-			myOutput.displayMonsterInfo(alexMonster.toString());
-			askQuestions();
-			myOutput.displayMonsterInfo("New Monster Info " + alexMonster.toString());
+			myOutput.displayMonsterConsole(alexMonster.toString());
+			myOutput.displayMonsterGUI(alexMonster.toString());
+			myOutput.displayMonsterAdGUI(alexMonster.toString());
+			myOutput.displayNotVirusGUI(null);
+			//makeUserMonster();
+			myOutput.displayMonsterGUI("New Monster Info " + userMonster.toString());
+			
 		}
 		
 		private void askQuestions()
