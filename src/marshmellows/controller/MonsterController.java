@@ -2,9 +2,11 @@ package marshmellows.controller;
 
 import marshmellows.model.MarshmallowMonster;
 import marshmellows.view.MarshmallowOutput;
+import marshmellows.view.PopupMonsterDisplay;
 import java.util.Scanner;
 public class MonsterController
 	{
+		//private PopupMonsterDisplay myOutput;
 		private MarshmallowMonster alexMonster;
 		private MarshmallowMonster userMonster;
 		private MarshmallowOutput myOutput;
@@ -22,6 +24,7 @@ public class MonsterController
 			
 			monsterScanner = new Scanner(System.in);
 			myOutput = new MarshmallowOutput();
+			//myOutput = new PopupMonsterDisplay();
 			alexMonster = new MarshmallowMonster(name, eyes, noses,hair,legs,hasBellyButton, Stinger);
 			
 		}
@@ -29,10 +32,10 @@ public class MonsterController
 		public void start()
 		{
 			myOutput.displayMonsterConsole(alexMonster.toString());
-			myOutput.displayMonsterGUI(alexMonster.toString());
-			myOutput.displayMonsterAdGUI(alexMonster.toString());
-			myOutput.displayNotVirusGUI(null);
-			//makeUserMonster();
+			//myOutput.displayMonsterGUI(alexMonster.toString());
+			//myOutput.displayMonsterAdGUI(alexMonster.toString());
+			//myOutput.displayNotVirusGUI(null);
+			makeUserMonster();
 			myOutput.displayMonsterGUI("New Monster Info " + userMonster.toString());
 			
 		}
