@@ -8,6 +8,10 @@ public class PopupMonsterDisplay
 		{
 		
 		}
+		public void displayMonsterGUI(String info)
+		{
+			JOptionPane.showMessageDialog(null, "My monster information is: " + info);
+		}
 		public void showResponce(String info)
 		{
 			JOptionPane.showMessageDialog(null, info);
@@ -20,5 +24,6 @@ public class PopupMonsterDisplay
 			
 			return answer;
 		}
+		
 
 	}
